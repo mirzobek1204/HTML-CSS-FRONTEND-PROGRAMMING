@@ -1,0 +1,159 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample Html page structure.">
+    <title>Mirzobek's Website</title>
+    <style>
+        .info {
+            background-color: #16946f;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body style="font-size: 20px;  margin-bottom: 30000px;">
+<header>
+    <nav>
+    <h1 style="margin-bottom: 20px;">Welcome to my Website</h1>
+    <ul>
+        <li> <a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#biz-haqimizda">Biz haqimizda</a></li>
+        
+    </ul>
+    </nav>
+</header>
+<main>
+    <section id="about">
+        <h2>About us</h2>
+        <p>We provide top-notch services to our customers, ensuring satifaction and excellence.</p>
+    </section>
+    <section id="services">
+        <h2>Our services</h2>
+        <ul>
+            <li>Consalting</li>
+            <li>Development</li>
+            <li>Design</li>
+        </ul>
+    </section>
+    <hr>
+    <p> <strong><span style="color: rgb(11, 25, 111);">Collegeboard</span> ga kirish uchun bu linkdan foydalaning:</strong>  <a   href="https://www.collegeboard.org/" target="_blank" title="college board accountga kirish uchun link">collegeboard.com</a></p>
+    <hr>
+    <a href="https://www.bmwusa.com/" target="_blank" title="US da BWM companiyasini saytiga kirish uchun bosing"><img src="https://www.gazeta.uz/media/img/2024/12/S2kFb117352920149371_b.jpg" alt="This is BMW." height="150"></a>
+</main>
+<footer>
+    <p><strong>&copy; 2024 My Website. sAll rights reserved.</strong></p>
+    <p>Contact us at <a href="mailto:info@gmail.com">info@example.com</a> </p>
+    <hr>
+    <ul>
+        <li>Birinchi element
+            <ul>
+                <li>Ichki element</li>
+                <li>Ichki element</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+    <li>Ikkinchi element
+        <ul>
+            <li>Ikkinchi ichki element</li>
+        </ul>
+    </li>
+    <ol>
+        <li>Son</li>
+    </ol>
+    <ol start="2">
+        <li>Raqam</li>
+
+    </ol>
+    </ul>
+</footer>
+<hr>
+<table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+        <th rowspan="2">Mijoz</th>
+        <th colspan="2">Buyurtmalar</td>
+    </tr>
+        <th>Mahusulot</th>
+        <th>Narx</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Telefon</td>
+        <td>1000 so'm</td>
+    </tr>
+    <tr>
+        <td>Olim</td>
+        <td colspan="2">Noutbek</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td colspan="2">&nbsp;</td>
+        >
+    </tr>
+</table>
+<hr>
+<form method="POST">
+    <input type="text" name="smth" placeholder="Full name" required><br>
+
+    <input type="email" name="month" placeholder="Enter your email" rerquired><br>
+    <input type="month" name="month" placeholder="Enter your bith date" rerquired><br>
+    <input type="file" name="rasm tashang" required><br>
+    <input type="search" name="rasm tashang" placeholder="Qidiruv" required><br>
+    <input type="phone" name="phone" placeholder="Tel nomer kiriting" required><br>
+    <input type="reset" name="rasm tashang" required><br>
+    <input type="datetime-local" name="rasm tashang" required><br>
+    <input type="checkbox" name="agree"><label for="checkbox" >foydalanishga roziman</label><br>
+    <input type="button" onclick="alert('Hello world')" value="Click me!">
+    <hr>
+    <input type="radio" ><label for="HTML">HTML</label><br>
+    <input type="radio"><label for="CSS">CSS</label><br>
+    <input type="radio"><label for="CSS">JAVASCRIPT</label><br>
+    <textarea name="Answer for this question" rows="5" cols="50"  placeholder="xabar yozing axir"></textarea>
+    <hr>
+    <select name="options">
+        <option value="Option1">Variant 1</option>
+        <option value="Option2" selected>Variant 2 </option>
+        <option value="Option3">Variant 3</option>
+        <hr>
+    </select><br>
+    <button type="submit">Yuborish</button>
+</form>
+<hr>
+
+<audio src="audio/Eminem - The Real Slim Shady.mp3" controls  loop muted>
+    Sizning brauzeringiz audio elementini qo'llab-qo'vvatlamaydi
+</audio>
+<hr>
+<video src="audio/AQPhcbYegQ1j8U6zjK9cO9Tq_9LZ3oBL5_eNa1_xetmEmvQPhwgIHwubwWBDDujr.mp4" controls  width="640" loop muted>
+    Sizning brauzeringiz video elementini qo'llab-quvvatlamaydi
+</video>
+<hr >
+<div>
+    <video src="audio/AQPhcbYegQ1j8U6zjK9cO9Tq_9LZ3oBL5_eNa1_xetmEmvQPhwgIHwubwWBDDujr.mp4" controls  width="640" height="360" loop muted>
+    Sizning brauzeringiz video elementini qo'llab-quvvatlamaydi
+    </video>
+
+</div>
+<hr>
+<div id="biz-haqimizda"  >
+    <h2>Biz haqimizda</h2>
+    <p>Bu bo'limda kompaniyamiz haqida ma'lumot beramiz</p>
+</div>
+<hr>
+<iframe src="https://kun.uz" frameborder="0" height="600" width="800"></iframe><br>
+<video src="https://youtu.be/qraNaY45PlI" controls loop muted>
+    sizning brauzeringiz bu video ni korishga kuchi yetmaydi 
+</video>
+<hr>
+<iframe src="https://yandex.uz/maps/-/CPtZRTzT" frameborder="0"></iframe><br>
+
+<!-- about sectioon -->
+
+    <input type="checkbox"  onclick="mirzobek.
+    type = this.checked ? 'text' : 'password' " ><label for="checkbox">Foydalanishga roziman</label>
+    <input type="password"  id="mirzobek" placeholder="Password" > 
+</body>
+</html>
