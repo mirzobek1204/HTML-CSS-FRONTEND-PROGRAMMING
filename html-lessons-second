@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Asoslari</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<div>
+ <body style="margin-bottom: 800px;" >
+
+
+<div>
+
+
+    <h2>Hello , CSS!</h2>
+    <p>Bu matn css orqali stilizatsiya qilingan.</p>
+    <p class="highlight">Bu class sektoriga misol .</p>
+    <p class="highlight">Yana bitta misol.</p>
+    <p id="unique">Bu ID selektori orqali qilingan misol.</p>
+    <p class="matn">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Vitae accusantium facere tempora perspiciatis alias, voluptas ad culpa placeat neque totam voluptates ipsum omnis nesciunt qui id! 
+        Quis numquam sequi aut.</p>
+    <div class="box-model"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, vitae.</div> 
+    <div class="margin-example">Tashqi bo'shliq bilan misol.</div>
+    <div class="border-sizing-example">Bu border-sizing misoli</div>
+    <hr>
+    <div class="sticky-box">Menular</div>
+    <div class="static">Static joylashuv</div>
+    <hr>
+    <div class="relative"> Relative joylashuv</div>
+    <div class="relative-box">
+          <div class="absolute-box">Absolute joylashuv</div>
+    </div>
+    <div class="fixed-box">Fixed joylashuv</div>
+    <hr>
+    <div class="relative-box">
+          <div class="absolute-box">Absolute joylashuv</div>
+    </div>
+    <hr>
+    <div class="fixed-box">HELP</div>
+   
+    <hr>
+    <div class="float-box  left">Chap float</div>
+    <div class="float-box  right">O'ng float</div>
+    <p>Float bolmagan qism</p>
+    <hr>
+    <hr>
+    <div class="flex-container">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+    </div>
+    <hr>
+    <div class="grid-container">
+        <div class="gride-items">1</div>
+        <div class="gride-items">2</div>
+        <div class="gride-items">3</div>
+        <div class="gride-items">4</div>
+    </div>
+    <hr>
+    <div class="hex-color-box">HEX rangi</div>
+    <hr>
+    <div class="linear-gradient-box">Linear Gradient </div>
+    <hr>
+    <div class="radial-gradient-box">Radial Gradient</div>
+
+
+    <p class="font-family-example1">Bu matn font lar oilasi misoli berilgan.</p>
+    <p class="font-family-example2">Bu matn font lar oilasi misoli berilgan.</p>
+    <p class="font-family-example3">Bu matn font lar oilasi misoli berilgan.</p>
+    <p class="font-family-example4">Bu matn font lar oilasi misoli berilgan.</p>
+    <p class="font-family-example5">Bu matn font lar oilasi misoli berilgan.</p>
+    <hr>
+    <p class="font-weight-example">Bu matn bold qilib belgilandi.</p>
+    <p class="text-transform-example">Bu mattni har bir so'zini bosh harf bilan boshlaydi.</p>
+          
+    <p class="transition-example">Hover qiling.</p>
+    <p class="transition-box">Box</p>
+    <div class="transition-box">Tranzitsiya qilingan quti</div>
+    <div class="animation-box">Animatsiya qilingan quti</div>
+    <hr>
+    <div class="complex-animation-box">Murakkab Animatsiya</div>
+    <button class="button">Sign up</button>
+   
+     <div class="responsiv-design">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Odit, dolor! Quae, odit ducimus fugit fugiat dicta earum, eum dolor quia vel facere ipsum quo adipisci beatae, repellat sint harum dolorem?</div>
+</div>
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EduQuest Arena</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <div id="auth-screen" class="auth-shell">
+    <section class="auth-card">
+      <div class="brand-lockup">
+        <span>EduQuest</span>
+        <strong>Arena</strong>
+      </div>
+      <h1>Student Success Arena</h1>
+      <p>Track your GPA safety, complete daily quests, build streaks, and climb the campus leaderboard.</p>
+
+      <div class="auth-tabs" role="tablist">
+        <button class="active" data-auth-tab="login">Login</button>
+        <button data-auth-tab="register">Register</button>
+      </div>
+
+      <form id="login-form" class="auth-form">
+        <label>Username<input id="login-username" autocomplete="username" required placeholder="Username...."></label>
+        <label>Password<input type="password" autocomplete="current-password" required placeholder="Password"></label>
+        <button class="primary-btn" type="submit">Enter Dashboard</button>
+      </form>
+
+      <form id="register-form" class="auth-form hidden">
+        <label>Full name<input id="register-name" required placeholder="Enter your full name "></label>
+        <label>Username<input id="register-username" required placeholder="Name"></label>
+        <label>Password<input type="password" required placeholder="Create password"></label>
+        <button class="primary-btn" type="submit">Create Arena Account</button>
+      </form>
+    </section>
+  </div>
+
+  <div id="app" class="app-shell hidden">
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <span>EduQuest</span>
+        <strong>Arena</strong>
+      </div>
+      <nav>
+        <a class="nav-link active" href="#dashboard" data-view="dashboard">Dashboard</a>
+        <a class="nav-link" href="#habits" data-view="habits">Daily Habits</a>
+        <a class="nav-link" href="#routine" data-view="routine">Daily Routine</a>
+        <a class="nav-link" href="#calendar" data-view="calendar">Calendar</a>
+        <a class="nav-link" href="#smart" data-view="smart">SMART Goals</a>
+        <a class="nav-link" href="#subjects" data-view="subjects">Grades</a>
+        <a class="nav-link" href="#leaderboard" data-view="leaderboard">Leaderboard</a>
+      </nav>
+      <div class="profile-mini">
+        <span>Level <b id="level-value">1</b></span>
+        <strong><b id="xp-value">0</b> XP</strong>
+        <small><b id="streak-value">0</b> day streak - <b id="multiplier-value">1.0</b>x</small>
+      </div>
+      <button id="logout-btn" class="logout-btn">Logout</button>
+    </aside>
+
+    <main class="content">
+      <header class="hero-band">
+        <div>
+          <p>Student Command Center</p>
+          <h1>Welcome, <span id="student-name">Student</span></h1>
+          <span>Your grant safety, quests, streaks, and leaderboard rank update live in the browser.</span>
+        </div>
+        <button id="seed-btn" class="ghost-btn">Reset Demo Data</button>
+      </header>
+
+      <section id="dashboard" class="view active">
+        <div class="grid two">
+          <article class="panel predictor-panel">
+            <div class="panel-head">
+              <div>
+                <h2>Grant & GPA Predictor</h2>
+                <p id="grant-label">Calculating safety level...</p>
+              </div>
+              <div class="metric-big"><span id="gpa-value">0.00</span><small>GPA</small></div>
+            </div>
+            <div class="predictor-grid">
+              <div class="chart-wrap"><canvas id="grant-chart"></canvas></div>
+              <div class="stat-stack">
+                <div><span>Grant probability</span><strong id="grant-score">0%</strong></div>
+                <div><span>Habit completion</span><strong id="habit-rate">0%</strong></div>
+                <div><span>Exam readiness</span><strong id="readiness-score">0%</strong></div>
+              </div>
+            </div>
+          </article>
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <h2>Achievement Badges</h2>
+                <p>Unlock badges by clearing weekly quests.</p>
+              </div>
+            </div>
+            <div id="badges-list" class="badge-grid"></div>
+          </article>
+        </div>
+
+        <div class="grid two lower-grid">
+          <article class="panel">
+            <h2>Study Materials</h2>
+            <div id="quest-subjects" class="subject-list"></div>
+          </article>
+          <article class="panel">
+            <h2>Campus Leaderboard</h2>
+            <div id="leaderboard-list" class="leaderboard"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="habits" class="view">
+        <article class="panel wide">
+          <h2>Daily Habit Multipliers</h2>
+          <p class="muted">Complete these today to raise grant probability and build your XP multiplier.</p>
+          <div id="habit-list" class="task-list"></div>
+        </article>
+      </section>
+
+      <section id="routine" class="view">
+        <article class="panel wide">
+          <h2>Daily Routine</h2>
+          <p class="muted">A focused day keeps the streak alive.</p>
+          <div id="routine-list" class="task-list"></div>
+        </article>
+      </section>
+
+      <section id="calendar" class="view">
+        <article class="calendar-panel">
+          <div class="calendar-toolbar">
+            <div class="calendar-selects">
+              <select id="month-select" aria-label="Month">
+                <option value="0">January 2026</option>
+                <option value="1">February 2026</option>
+                <option value="2">March 2026</option>
+                <option value="3" selected>April 2026</option>
+                <option value="4">May 2026</option>
+                <option value="5">June 2026</option>
+                <option value="6">July 2026</option>
+                <option value="7">August 2026</option>
+                <option value="8">September 2026</option>
+                <option value="9">October 2026</option>
+                <option value="10">November 2026</option>
+                <option value="11">December 2026</option>
+              </select>
+              <select id="course-filter" aria-label="Course filter">
+                <option value="all">All courses</option>
+              </select>
+            </div>
+            <button id="new-event-btn" class="calendar-new-btn">New event</button>
+          </div>
+
+          <div class="month-head">
+            <button id="prev-month" class="calendar-link">Previous</button>
+            <h2 id="calendar-date-title">April 2026</h2>
+            <button id="next-month" class="calendar-link">Next</button>
+          </div>
+
+          <div class="month-grid-head">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div id="month-grid" class="month-grid"></div>
+          <h3 id="selected-date-title" class="selected-date-title">Monday, 6 April 2026</h3>
+          <div id="calendar-events" class="calendar-events"></div>
+          <a class="calendar-import" href="#calendar">Import or export calendars</a>
+        </article>
+      </section>
+
+      <section id="subjects" class="view">
+        <article class="grades-panel">
+          <div class="grades-head">
+            <div>
+              <p class="eyebrow">Grade Studio</p>
+              <h2>Grades</h2>
+              <span>Assignments and quizzes are 30%, midterm is 30%, and final exam is 40%.</span>
+            </div>
+            <select id="grade-subject-select" aria-label="Choose subject"></select>
+          </div>
+          <div id="grade-calculator" class="grade-calculator"></div>
+        </article>
+      </section>
+
+      <section id="smart" class="view">
+        <article class="smart-panel">
+          <p class="eyebrow">Goal Designer</p>
+          <h2>SMART Goals</h2>
+          <p class="smart-intro">SMART is a framework for setting clear, trackable, and achievable goals. Each letter stands for one quality your goal should have.</p>
+
+          <div class="smart-principles">
+            <div><b>S</b><strong>Specific</strong><span>Clearly define what you want to accomplish. Avoid vague statements.</span></div>
+            <div><b>M</b><strong>Measurable</strong><span>Include numbers or criteria so you can track your progress.</span></div>
+            <div><b>A</b><strong>Achievable</strong><span>Make sure the goal is realistic given your resources and time.</span></div>
+            <div><b>R</b><strong>Relevant</strong><span>The goal should matter to you and align with your broader objectives.</span></div>
+            <div><b>T</b><strong>Time-Bound</strong><span>Set a deadline or timeframe to create urgency and focus.</span></div>
+          </div>
+
+          <div class="smart-examples">
+            <h3>Examples</h3>
+            <p class="good">Good: Complete 3 chapters of Linear Algebra by March 30 with 80%+ quiz score.</p>
+            <p class="bad">Bad: Study more math.</p>
+            <p class="good">Good: Read 20 pages of English literature every day for 2 weeks.</p>
+            <p class="bad">Bad: Read more books.</p>
+          </div>
+
+          <div class="smart-builder">
+            <h3>Create a SMART Goal</h3>
+            <label>Goal Title<input id="smart-title" placeholder="e.g., Master Data Structures"></label>
+            <label>Specific<textarea id="smart-specific" placeholder="What exactly will you do?"></textarea></label>
+            <label>Measurable<textarea id="smart-measurable" placeholder="How will you measure progress?"></textarea></label>
+            <label>Achievable<textarea id="smart-achievable" placeholder="Is this realistic for you?"></textarea></label>
+            <label>Relevant<textarea id="smart-relevant" placeholder="Why does this goal matter?"></textarea></label>
+            <label>Time-Bound<textarea id="smart-timebound" placeholder="What is your timeframe?"></textarea></label>
+            <div class="smart-builder-row">
+              <label>Deadline<input id="smart-deadline" type="date"></label>
+              <label>Status<select id="smart-status"><option>Active</option><option>Paused</option><option>Done</option></select></label>
+              <label>Progress <span id="smart-progress-value">0%</span><input id="smart-progress" type="range" min="0" max="100" value="0"></label>
+            </div>
+            <button id="save-smart-goal" class="smart-save-btn">Save</button>
+          </div>
+
+          <div class="saved-smart">
+            <h3>Saved SMART Goals</h3>
+            <div id="smart-goals-list" class="smart-goals-list"></div>
+          </div>
+        </article>
+      </section>
+
+      <section id="leaderboard" class="view">
+        <article class="panel wide">
+          <h2>Campus Rank</h2>
+          <div id="leaderboard-page" class="leaderboard"></div>
+        </article>
+      </section>
+    </main>
+
+    <aside class="right-rail">
+      <section class="time-card">
+        <div id="live-time" class="live-time">14:52</div>
+        <div id="live-date" class="live-date">Monday, 18 May</div>
+      </section>
+
+      <section class="deadline-card">
+        <p class="rail-title">Next Deadline</p>
+        <div class="deadline-box">
+          <strong id="deadline-title">AI Final Project</strong>
+          <span id="deadline-left">Calculating...</span>
+          <div class="deadline-progress"><span id="deadline-progress"></span></div>
+        </div>
+      </section>
+
+      <section class="mini-rings">
+        <div class="mini-ring" style="--ring:92%">
+          <span>92%</span>
+          <strong>Attendance</strong>
+        </div>
+        <div class="mini-ring cyan" style="--ring:95%">
+          <span>3.2</span>
+          <strong>GPA</strong>
+        </div>
+      </section>
+
+      <section class="rail-card">
+        <p class="rail-title">Pomodoro Timer</p>
+        <div id="pomodoro-time" class="pomodoro-time">25:00</div>
+        <div class="pomodoro-actions">
+          <button id="pomodoro-start">Start</button>
+          <button id="pomodoro-reset">Reset</button>
+        </div>
+      </section>
+
+      <section class="rail-card">
+        <p class="rail-title">SMART Goals</p>
+        <p class="smart-help">Build goals with Specific, Measurable, Achievable, Relevant, and Time-bound fields.</p>
+        <button class="notify-btn" data-view="smart">Open SMART Builder</button>
+        <div id="smart-goals-mini" class="smart-goals-list"></div>
+      </section>
+
+      <section class="rail-card">
+        <p class="rail-title">Class Notifications</p>
+        <p id="next-class-text" class="smart-help">Next class reminder will appear here.</p>
+        <button id="enable-notifications" class="notify-btn">Enable reminders</button>
+      </section>
+    </aside>
+  </div>
+
+  <dialog id="quest-modal">
+    <form method="dialog" class="quest-card">
+      <button class="modal-close" value="cancel">x</button>
+      <p class="eyebrow">Weekly Quest Room</p>
+      <h2 id="quest-title">Quest</h2>
+      <p id="quest-topic" class="muted"></p>
+      <div id="quiz-box" class="quiz-box"></div>
+      <button id="submit-quiz" type="button" class="primary-btn">Submit Quest</button>
+    </form>
+  </dialog>
+</body>
+</html>
+  
+</body>
+</html> 
