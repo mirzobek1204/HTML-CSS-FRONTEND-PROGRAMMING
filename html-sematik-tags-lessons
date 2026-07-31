@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sematik HTML misoli</title>
+</head>
+<body style="font-size: 15px; margin-bottom: 200px;">
+<header>
+    <h1>Mening veb-saytim</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Bosh sahifa</a></li>
+            <li><a href="#about">Biz haqimizda</a></li>
+            <li><a href="#services">Xizmatlar</a></li>
+            <li><a href="#contact">Aloqa</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="about">
+        <h2>Biz haqimizda</h2>
+        <p>Biz yuqori sifatli xizmatlarni taklif etamiz</p>
+        <article>
+            <h3>Xizmatlarimiz</h3>
+            <p>Bizning xizmatlarimiz quyidagilarni o'z ichiga oladi:</p>
+            <ul>
+                <li>Consalting</li>
+                <li>Consalting</li>
+                <li>Dizayn</li>
+            </ul>
+        </article>
+    </section>
+    <section id="services">
+        <h2>Xizmatlar</h2>
+        <p>Bizning asosiy ximatlarimiz:</p>
+        <ol>
+            <li>Consalting</li>
+            <li>Rivojlantirsh</li>
+            <li>Dizayn</li>
+        </ol>
+    </section>
+    <aside>
+        <h2>Qo'shimcha Ma'lumot</h2>
+        <p>Bizning xizmatlarimiz uchun ko'proq malumot olish uchun bog'laning.</p>
+    </aside>
+</main>
+<footer>
+    <p>&copy; 2024 Mening veb-saytim . Barcha huquqlar himoyalangan.</p>
+    <p>Biz bilan bog'lanish uchun: <a href="mirzobekqurbanbayev5@gmail.com">Email manzil</a></p>
+</footer>    
+</body>
+</html>
