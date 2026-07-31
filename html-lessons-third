@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <a href="/" class="site-name">Website name</a>
+                <div class="site-name-sub">Online store</div>
+            </div>
+            <div class="right">
+                <a href="tel:+998998406609" class="nav-phone">71 200 0604</a>
+                <a href="tel:+998998406609" class="nav-icon green">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+                <a href="https://t.me/miracle_1204" class="nav-icon blue" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div> 
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1 class="offer"></h1>
+                <div class="offer-sub"></div>
+                <a href="#" class="button"></a>
+                <div class="hero-icons"></div>
+                <div class="hero-icon-items"></div>
+            </div>
+            <div class="hero-right">
+                <img src="assets/image_2026-07-24_15-59-12.png" alt="jjjdjjfjd">
+            </div>
+        </div>
+        <div class="hero-block"></div>
+    </section>
+</body>
+</html>
