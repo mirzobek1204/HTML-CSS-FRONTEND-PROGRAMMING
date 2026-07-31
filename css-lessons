@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --bg-color-1: #f8f4ff;
+    --bg-color-2: #fff;
+    --color-1: #46434d;
+    --color-2: #8248fa;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    border-color: var(--bg-color-1);
+    background-color: whitesmoke;
+}
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-name {
+    font-size: 32px;
+    line-height: 150%;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color-2);
+}
+.site-name-sub {
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--color-1);
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    gap: 15px;
+}
+.nav-phone {
+    text-decoration: none;
+    color: var(--color-1);
+    font-size: 24px;
+    line-height: 2;
+    font-weight: bold;
+}
+.nav-icon{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+}
+
+.green{
+    background:#25D366;
+}
+
+.blue{
+    background:#229ED9;
+}
+.hero-right {
+    height: 200px;
+    display: flex;
+    position: absolute;
+    padding-left: 100px;
+}
