@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML O'RGANISH</title>
+</head>
+<body style="font-size: 20px; margin-bottom: 2000px;">
+
+    <h3>Sahifa sarlovhasi</h3>
+    <hr>
+    <p>Bu birinchi paragraph</p>
+    <p>Bu ikkinchi paragraph</p>
+    <p>Bu uchinchi paragraph</p>
+    <p></p>
+    <p>Bu <span style="color: rgb(21, 7, 128);" >ko'k rangi matn</span> va qolgan matn qora rangda. <span style="color: red
+    ;"> Bu qizil rangda yozilgan matn.</span> <span style="color: green;"> Buni yashil rangda yozdik.</span></p>
+    <hr>
+    <p>Bu <strong>muhim matn axir</strong> va bu matn oddiy ko'rinishda axir.</p>
+    <p>Bu <em> matn italik axir</em> va bu matn oddiy ko'rinishda axir.</p>
+    
+</body>
+</html>
